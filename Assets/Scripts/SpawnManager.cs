@@ -15,7 +15,6 @@ public class SpawnManager : MonoBehaviour
         InvokeRepeating("SpawnObstacle", startDelay, repeatRate);
     
     }
-
     void SpawnObstacle ()
     {
          Instantiate(obstaclePrefab, spawnPos, obstaclePrefab.transform.rotation);
