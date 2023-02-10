@@ -95,7 +95,7 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.489339, y: 2.8971844, z: 0.88745666}
+  m_Size: {x: 1, y: 3, z: 1}
   m_Center: {x: -0.02272001, y: 1.4097884, z: -0.068434834}
 --- !u!114 &380117706
 MonoBehaviour:
@@ -109,7 +109,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d2edfe2625f7741d5a91c250ddc295a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  jumpForce: 10
+  jumpForce: 11
   gravityModifier: 2
   isOnGround: 1
 --- !u!1 &100004
